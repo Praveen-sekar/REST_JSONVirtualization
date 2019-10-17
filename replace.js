@@ -1,21 +1,6 @@
 
 var responseObj={"Domain":"Sample","Name":"${reqParam2}","AccountNumber":"${reqParam}","SessionID":"${sessionId}","Age":"${age}","City":"${city}"}
 
-var dict={
-    "requestHeaders":{
-        "req.headers.sessionid":"${sessionId}"
-    },
-    "requestQueryParams":{
-        "req.query.age":"${age}",
-        "req.query.city":"${city}"
-    },
-    "requestUrlPath":{
-        "xxx":"${reqParam}"
-    },
-    "requestBody":{
-      "req.body.xx":"nil"
-    }
-}
 
 var replaceParameters={
     "req.headers.sessionid":"${sessionId}",
