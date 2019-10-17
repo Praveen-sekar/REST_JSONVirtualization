@@ -26,7 +26,7 @@ function getUrlMatchingIndex(req, res){
 
         }
     }
-    console.log("Matching Url length : "+responseFile);
+    //console.log("Matching Url length : "+responseFile);
 
     //
     if(matchingUrl.length>0){
@@ -74,6 +74,8 @@ function getUrlMatchingIndex(req, res){
             Message="SUCESSFULLY matched Url";
             urlPath=matchingUrl[matchingIndex];
             resFile=responseFile[matchingIndex];
+            console.log("Calling function");
+            getResponse(req,baseUrl,urlPath,resFile);
             //console.log("More than 1 Url path are matching")
 
         }else if(g==0){
@@ -95,7 +97,29 @@ function getUrlMatchingIndex(req, res){
 
     }
     //console.log(g);
-    return [Message,urlPath,resFile];
+    return [Message,urlPath,resFile,str];
 }
+function getResponse(req,baseUrl,urlPath,resFile){
 
+    var response=require("../Response/"+resFile);
+    var str=JSON.stringify(response.responseObj);
+    var replaceKeys=Object.keys(response.replaceParameters);
+    var replaceValues=Object.values(response.replaceParameters);
+
+    var sourceReq=baseUrl[0].split("/");
+    var configReq=urlPath.split("/");
+    //console.log(urlPath);
+    for(n=1;n<sourceReq.length;n++){
+        if(configReq[n].startsWith("${")){
+            console.log("Index : "+n+" ,Matched :"+configReq[n])
+            str=str.replace(configReq[n],sourceReq[n])
+        }
+    }
+
+    for(q=0;q<replaceKeys.length;q++){
+        str=str.replace(replaceValues[q],eval(replaceKeys[q]))
+    }
+    console.log(str);
+    return str;
+}
 module.exports={getUrlMatchingIndex}

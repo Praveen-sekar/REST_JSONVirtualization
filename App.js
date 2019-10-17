@@ -20,8 +20,8 @@ app.use(bodyParser.json());
 
 app.get('/*',function(req, res){
 
-    var [Msg,UrlPath,resFile] = GETCtrl.getUrlMatchingIndex(req,res);
-    console.log(resFile);
+    var [Msg,UrlPath,resFile,str] = GETCtrl.getUrlMatchingIndex(req,res);
+    //console.log(resFile);
     if(UrlPath!=null){
         //var str = "Mr Blue has a blue house and a blue car";
         //var rep=str.replace("Blue","Praveen");
@@ -30,12 +30,12 @@ app.get('/*',function(req, res){
        // var jsonString = JSON.stringify(obj);
        // rep=jsonString.replace("Blue","Praveen");
         console.log("Message : "+Msg+" and UrlPath is : "+UrlPath+",Response File : "+resFile);
-        var respon=require("./Response/"+resFile);
-        var rplc=respon.responseObj;
-        strg=JSON.stringify(rplc).replace("Praveen","Beulah");
-        res.writeHead(respon.responseStatuscode,{"Content-Type":"application/json"});
-        res.end(strg);
-        var replaceParameters={
+        //var respon=require("./Response/"+resFile);
+        //var rplc=respon.responseObj;
+        //strg=JSON.stringify(rplc).replace("Praveen","Beulah");
+        //res.writeHead(respon.responseStatuscode,{"Content-Type":"application/json"});
+        res.end(str);
+        /**var replaceParameters={
             "req.headers.sessionid":"${sessionId}",
             "req.query.age":"${age}",
             "req.query.city":"${city}",
@@ -45,7 +45,8 @@ app.get('/*',function(req, res){
         var keys=Object.keys(replaceParameters);
         var values=Object.values(replaceParameters);
         //console.log(keys[0]);
-        console.log(req.headers.sessionid)
+        //console.log(req.headers.sessionid)
+        */
 
     }else{
 
