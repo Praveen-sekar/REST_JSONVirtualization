@@ -1,0 +1,41 @@
+{
+    "GET":{
+        "endpoints":[
+            {
+             "requestUrl":"/effie/account/${param}",
+             "responseFileName":"Account.json"
+            },
+            {
+                "requestUrl":"/effie/entitlement/${param}/document",
+                "responseFileName":"Entitlement.json"
+            },
+            {
+                "requestUrl":"/effie/${param}/equipment",
+                "responseFileName":"Equipment.json"
+            },
+            {
+                "requestUrl":"/effie/sample/${param}",
+                "responseFileName":"Sample.js"
+            }
+        ]
+    },
+
+    "POST":{
+        "endpoints":[
+            {
+                "requestUrl":"/effie/account/${param}",
+                "responseFileName":"Account.json"
+            },
+            {
+                   "requestUrl":"/effie/entitlement/${param}",
+                   "responseFileName":"Entitlement.json"
+            },
+            {
+                   "requestUrl":"/effie/${param}/equipment",
+                   "responseFileName":"Equipment.json"
+            }
+
+        ]
+    }
+
+}
