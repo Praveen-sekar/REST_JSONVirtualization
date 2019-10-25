@@ -3,15 +3,15 @@
         "endpoints":[
             {
              "requestUrl":"/effie/account/${param}",
-             "responseFileName":"Account.json"
+             "responseFileName":"Account.js"
             },
             {
-                "requestUrl":"/effie/entitlement/${param}/document",
-                "responseFileName":"Entitlement.json"
+                "requestUrl":"/effie/entitlement/${param}/document/${param2}",
+                "responseFileName":"Entitlement.js"
             },
             {
                 "requestUrl":"/effie/${param}/equipment",
-                "responseFileName":"Equipment.json"
+                "responseFileName":"Equipment.js"
             },
             {
                 "requestUrl":"/effie/sample/${param}",

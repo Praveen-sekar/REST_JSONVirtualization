@@ -1,0 +1,117 @@
+2019-10-24 17:00:21.364 info [App.js]: Received incoming request GET:/effie/entitlement/1234456/document/TWC?age=29&country=India&city=Pune
+2019-10-24 17:02:11.454 info [App.js]: Server is listening on http://localhost:3001
+2019-10-24 17:03:33.452 info [App.js]: Received incoming request GET:/effie/entitlement/1234456/document/TWC?age=29&country=India&city=Pune
+2019-10-24 17:05:37.761 info [App.js]: Server is listening on http://localhost:3001
+2019-10-24 17:05:40.465 info [App.js]: Received incoming request GET:/effie/entitlement/1234456/document/TWC?age=29&country=India&city=Pune
+2019-10-24 17:05:40.466 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-24 17:06:46.027 info [App.js]: Server is listening on http://localhost:3001
+2019-10-24 17:06:49.205 info [App.js]: Received incoming request GET:/effie/entitlement/1234456/document/TWC?age=29&country=India&city=Pune
+2019-10-24 17:06:49.206 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-24 17:06:49.207 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/entitlement/${param}/document/${param2},Response File : Entitlement.js
+2019-10-24 17:07:06.314 info [App.js]: Received incoming request GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-24 17:07:06.315 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-24 17:07:06.316 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-24 17:08:26.007 info [App.js]: Server is listening on http://localhost:3001
+2019-10-24 17:08:28.659 info [App.js]: Received incoming request GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-24 17:08:28.659 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-24 17:08:28.660 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-24 17:08:28.991 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-24 17:11:34.742 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:02:56.322 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:02:58.882 info [App.js]: Received incoming request-->undefined:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:02:58.883 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:02:58.883 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:02:59.142 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:11:25.469 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:12:00.864 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:12:09.552 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:12:44.872 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:12:55.148 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:13:08.288 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:14:04.211 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:14:57.474 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:15:12.604 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:15:24.484 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:17:27.057 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:17:33.511 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:18:37.673 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:18:40.634 info [App.js]: Received incoming request-->1b6a6da0-f743-11e9-9bb6-21cdf00ce896:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:18:40.635 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:18:40.636 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:18:40.777 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:19:00.068 info [App.js]: Received incoming request-->26ffd240-f743-11e9-9bb6-21cdf00ce896:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:19:00.071 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:19:00.073 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:19:00.339 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:19:11.196 info [App.js]: Received incoming request-->2da1d1c0-f743-11e9-9bb6-21cdf00ce896:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:19:11.199 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:19:11.201 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:19:11.534 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:20:17.624 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:20:19.978 info [App.js]: Received incoming request-->[txnId:56a11ea0-f743-11e9-be03-bdfb8640ac58]:GET,/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:20:19.980 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:20:19.980 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:20:20.257 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:20:47.431 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:20:50.990 info [App.js]: Received incoming request-->[txnId:691d2ce0-f743-11e9-9a6f-57582c29924d]GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:20:50.991 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:20:50.992 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:20:51.389 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:21:36.210 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:21:38.808 info [App.js]: Received incoming request-->[txnId:859d9f80-f743-11e9-be12-75d6f935c56d]GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:21:38.811 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json859e14b0-f743-11e9-be12-75d6f935c56d
+2019-10-25 10:21:38.812 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:21:39.176 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:22:11.696 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:22:14.373 info [App.js]: Received incoming request-->[txnId:9ad06950-f743-11e9-a945-d33df0d4355a]GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:22:14.375 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json9ad06950-f743-11e9-a945-d33df0d4355a
+2019-10-25 10:22:14.376 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:22:14.720 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:23:40.103 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:23:42.326 info [App.js]: [txnId:cf3cf960-f743-11e9-aebc-e9785cd315ff]Received incoming request-->GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:23:42.327 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.jsoncf3cf960-f743-11e9-aebc-e9785cd315ff
+2019-10-25 10:23:42.328 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:23:42.616 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:25:45.218 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:25:46.757 info [App.js]: [txnId:19677c40-f744-11e9-99bf-b3ee8d6cb7b1] Received incoming request-->GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:25:46.762 info [App.js]: Calling GETController.js to match urlPath from file: UrlPathConfig.json19677c40-f744-11e9-99bf-b3ee8d6cb7b1
+2019-10-25 10:25:46.763 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:25:47.131 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:26:16.995 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:26:18.639 info [App.js]: [txnId:2c684ae0-f744-11e9-ae8e-a1ca57d84c53] Received incoming request-->GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:26:18.645 info [App.js]: [txnId:2c684ae0-f744-11e9-ae8e-a1ca57d84c53] Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:26:18.647 info [App.js]: Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:26:18.985 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:27:07.556 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:27:38.525 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:27:50.758 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:27:52.337 info [App.js]: [txnId:6441a010-f744-11e9-b867-e3754d0fd400] Received incoming request-->GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:27:52.339 info [App.js]: [txnId:6441a010-f744-11e9-b867-e3754d0fd400] Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:27:52.340 info [App.js]: [txnId:6441a010-f744-11e9-b867-e3754d0fd400]Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:27:52.605 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:28:07.252 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:28:20.515 info [App.js]: [txnId:750d3f30-f744-11e9-8419-6beaf0632851] Received incoming request-->GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:28:20.516 info [App.js]: [txnId:750d3f30-f744-11e9-8419-6beaf0632851] Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:28:20.517 info [App.js]: [txnId:750d3f30-f744-11e9-8419-6beaf0632851] Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:28:20.608 info [App.js]: Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:28:49.620 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:28:50.978 info [App.js]: [txnId:87358820-f744-11e9-9624-058074ec1881] Received incoming request-->GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:28:50.979 info [App.js]: [txnId:87358820-f744-11e9-9624-058074ec1881] Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:28:50.980 info [App.js]: [txnId:87358820-f744-11e9-9624-058074ec1881] Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:28:51.344 info [App.js]: [txnId:87358820-f744-11e9-9624-058074ec1881] Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:29:26.997 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:29:29.623 info [App.js]: [txnId:9e3e4a70-f744-11e9-9251-53a779a03d72] Received incoming request-->GET:/effie/sample/1234456?age=29&country=India&city=Pune
+2019-10-25 10:29:29.626 info [App.js]: [txnId:9e3e4a70-f744-11e9-9251-53a779a03d72] Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:29:29.627 info [App.js]: [txnId:9e3e4a70-f744-11e9-9251-53a779a03d72] Message : SUCESSFULLY matched Url and UrlPath is : /effie/sample/${param},Response File : Sample.js
+2019-10-25 10:29:30.630 info [App.js]: [txnId:9e3e4a70-f744-11e9-9251-53a779a03d72] Sending response-->{"Domain":"SampleDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:30:29.364 info [App.js]: [txnId:c1d9e430-f744-11e9-9251-53a779a03d72] Received incoming request-->GET:/effie/account/1234456?age=29&country=India&city=Pune
+2019-10-25 10:30:29.365 info [App.js]: [txnId:c1d9e430-f744-11e9-9251-53a779a03d72] Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:30:29.366 info [App.js]: [txnId:c1d9e430-f744-11e9-9251-53a779a03d72] Message : SUCESSFULLY matched Url and UrlPath is : /effie/account/${param},Response File : Account.js
+2019-10-25 10:30:29.566 info [App.js]: [txnId:c1d9e430-f744-11e9-9251-53a779a03d72] Sending response-->{"Domain":"AccountDomain","Name":"Cognizant","AccountNumber":"1234456","SessionID":"2d23c-dcdf-sdscdv-323f-sdcfrv111","Age":"23","City":"Pune","Country":"India"}
+2019-10-25 10:30:57.418 info [App.js]: [txnId:d292bea0-f744-11e9-9251-53a779a03d72] Received incoming request-->GET:/effie/account1/1234456?age=29&country=India&city=Pune
+2019-10-25 10:30:57.419 info [App.js]: [txnId:d292bea0-f744-11e9-9251-53a779a03d72] Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:30:57.420 debug [App.js]: Message : ERROR-->UrlPath parameters not found !!!
+2019-10-25 10:31:50.491 info [App.js]: Server is listening on http://localhost:3001
+2019-10-25 10:31:52.542 info [App.js]: [txnId:f36dffe0-f744-11e9-9659-97ebe54ad87d] Received incoming request-->GET:/effie/account1/1234456?age=29&country=India&city=Pune
+2019-10-25 10:31:52.543 info [App.js]: [txnId:f36dffe0-f744-11e9-9659-97ebe54ad87d] Calling GETController.js to match urlPath from file: UrlPathConfig.json
+2019-10-25 10:31:52.544 error [App.js]: [txnId:f36dffe0-f744-11e9-9659-97ebe54ad87d] Message : ERROR-->UrlPath parameters not found !!!
